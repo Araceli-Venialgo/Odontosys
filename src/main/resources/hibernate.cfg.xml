@@ -18,6 +18,15 @@
         
         <property name="connection.pool_size">5</property>
        
+       
+       	<mapping class="modelo.AgendamientoModelo"/>
+       	<mapping class="modelo.ConsultaModelo"/>
+        <mapping class="modelo.OdontologoModelo"/>
+        <mapping class="modelo.PacienteModelo"/>
+        <mapping class="modelo.ProcedimientoModelo"/>
+        <mapping class="modelo.RecetaModelo"/>
+       
+       
         
     </session-factory>
     
