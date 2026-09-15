@@ -96,17 +96,17 @@ public class PantallaPrincipalVista extends JFrame {
 		contentPane.setLayout(null);
 		
 		btnOdontologo = new JButtonAccesoDirecto();
-		btnOdontologo.setText("odontologo");
-		btnOdontologo.setBounds(318, 47, 157, 131);
+		btnOdontologo.setText("Odontologo");
+		btnOdontologo.setBounds(344, 44, 163, 137);
 		contentPane.add(btnOdontologo);
 		
 		btnAgendamiento = new JButtonAccesoDirecto();
-		btnAgendamiento.setText("agendamiento");
-		btnAgendamiento.setBounds(542, 55, 185, 131);
+		btnAgendamiento.setText("Agendamiento");
+		btnAgendamiento.setBounds(566, 44, 163, 137);
 		contentPane.add(btnAgendamiento);
 		
 		btnPacientes = new JButtonAccesoDirecto();
-		btnPacientes.setText("pacientes");
+		btnPacientes.setText("Pacientes");
 		btnPacientes.setBounds(107, 44, 163, 137);
 		contentPane.add(btnPacientes);
 
